@@ -1,0 +1,56 @@
+<vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0">
+<vmap:AdBreak breakType="linear" timeOffset="start">
+    <vmap:AdSource>
+        <vmap:VASTAdData>
+            <VAST version="3.0">
+                <Ad sequence="1">
+                    <InLine>
+                        <AdSystem>2.0</AdSystem>
+                        <AdTitle>ad-1</AdTitle>
+                        <Impression/>
+                        <Creatives>
+                            <Creative>
+                                <Linear>
+                                    <Duration>00:00:15</Duration>
+                                    <MediaFiles>
+                                        <MediaFile delivery="progressive" type="video/mp4" width="1920" height="1080">
+                                            <![CDATA[https://admarkerinsertionnate123.s3.amazonaws.com/shortadclips/creak.mp4]]>
+                                        </MediaFile>
+                                    </MediaFiles>
+                                </Linear>
+                            </Creative>
+                        </Creatives>
+                    </InLine>
+                </Ad>
+            </VAST>
+        </vmap:VASTAdData>
+    </vmap:AdSource>
+</vmap:AdBreak>
+    <vmap:AdBreak breakType="linear" timeOffset="00:00:30">
+        <vmap:AdSource>
+            <vmap:VASTAdData>
+                <VAST version="3.0">
+                    <Ad sequence="1">
+                        <InLine>
+                            <AdSystem>2.0</AdSystem>
+                            <AdTitle>ad-1</AdTitle>
+                            <Impression/>
+                            <Creatives>
+                                <Creative>
+                                    <Linear>
+                                        <Duration>00:00:12</Duration>
+                                        <MediaFiles>
+                                            <MediaFile delivery="progressive" type="video/mp4" width="1920" height="1080">
+                                                <![CDATA[https://admarkerinsertionnate123.s3.amazonaws.com/shortadclips/creak.mp4]]>
+                                            </MediaFile>
+                                        </MediaFiles>
+                                    </Linear>
+                                </Creative>
+                            </Creatives>
+                        </InLine>
+                    </Ad>
+                </VAST>
+            </vmap:VASTAdData>
+        </vmap:AdSource>
+    </vmap:AdBreak>
+</vmap:VMAP>
