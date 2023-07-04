@@ -167,7 +167,7 @@ From = https://developers.google.com/interactive-media-ads/docs/sdks/html5/clien
 
 NOTE -- with simple VAST template, you must store the ad video clips in an s3 bucket for access and reference those video clips in the VAST template
 
-- Example [SIMPLE VAST template](assets/adTestnewer.xml)
+- Example [SIMPLE VAST template](assets/adTester.xml)
 
 - Come back and plug in CloudFront CDN settings once the CloudFront distribution has been created
 
