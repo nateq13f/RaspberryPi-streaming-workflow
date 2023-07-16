@@ -48,7 +48,7 @@ rtmp {
 ```
 raspivid -n -t 0 -w 1280 -h 360 -fps 24 -b 5000000 -o - | ffmpeg -i - -vcodec copy -an -f flv rtmp://127.0.0.1:1935/raspivid/live
 ```
-Command =
+Command -<br>
 (-b 5000000) = bitrate of 5Mb
 
 To watch stream ==<br>
