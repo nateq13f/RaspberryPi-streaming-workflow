@@ -46,7 +46,7 @@ rtmp {
 
 - Start stream by piping raspivid video commmand into ffmpeg rtmp stream command 
 ```
-raspivid -n -t 0 -w 1280 -h 360 -fps 24 -b 5000000 -o - | ffmpeg -i - -vcodec copy -an -f flv rtmp://127.0.0.1:1935/raspivid/live
+raspivid -n -t 0 -w 1280 -h 360 -fps 24 -b 5000000 -o - | ffmpeg -hide_banner -i - -vcodec copy -an -f flv rtmp://127.0.0.1:1935/raspivid/live
 ```
 Command -<br>
 (-b 5000000) = bitrate of 5Mb
